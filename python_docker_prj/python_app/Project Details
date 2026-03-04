@@ -1,0 +1,4 @@
+Creating a python flask app
+Using Dockerfile to execute the python app.
+Docker command to build a image using Dockerfile -> docker build -t python_app:latest /path_of_the_Dockerfile
+Docker command to run the image by publishing the port number -> docker run -d -p 5000:5000 python_app:latest
