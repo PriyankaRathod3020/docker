@@ -1,0 +1,4 @@
+creating 2 tier application 
+creating 2 containers nginx and mysql
+using nginx container to host html webpage
+using volumes in mysql container to store the data in local as well
