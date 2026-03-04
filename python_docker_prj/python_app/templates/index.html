@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Web App</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        .card { border: 1px solid #ccc; padding: 20px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Hello, {{ data.name }}!</h1>
+        <p>System Status: <strong>{{ data.status }}</strong></p>
+        <p>Current Year: {{ data.year }}</p>
+    </div>
+</body>
+</html>
